@@ -1,0 +1,83 @@
+/* register And Login Horizontally vert  */
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px; 
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 50%; 
+    min-width: 300px; 
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input, .form-container button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: rgb(13, 162, 147);
+    color: white;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    width: 50%; 
+    min-width: 300px; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container, .image-container {
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-container h1 {
+        font-size: 24px;
+    }
+}
+
+
+
