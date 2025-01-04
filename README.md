@@ -90,9 +90,6 @@ This project was brought to life by the dedicated efforts of our team. Their com
   </tr>
 </table>
 
-## Acknowledgments
-
-Special thanks to everyone who contributed to this project and supported its development.
 
 ## License
 
